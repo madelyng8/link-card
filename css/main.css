@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  font-size: 1.5rem;
+  color: #785439;
+  background-color: #dcd4cd;
+}
+
+a {
+  list-style-type: none;
+}
+
+dl {
+column-count: 2;
+}
