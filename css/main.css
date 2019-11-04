@@ -13,6 +13,7 @@ header {
   color: #512200;
   font-family: Dosis, sans-serif;
   background-color: #dcd4cd;
+  text-align: left;
 }
 
 body {
@@ -20,9 +21,10 @@ body {
   padding: 1rem .4em .75em .5em;
   border-width: 3px;
   border-color: #9a816d;
+  border: solid 2px #000;
 }
 
-h1{
+h1 {
   font-size: 1.5rem;
   padding: 1rem;
 }
