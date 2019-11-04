@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
@@ -13,23 +13,31 @@ header {
   color: #512200;
   font-family: Dosis, sans-serif;
   background-color: #dcd4cd;
+}
 
+body {
+  background-color: #dcd4cd;
+  padding: 1rem .4em .75em .5em;
 }
 
 h1{
   font-size: 1.5rem;
+  padding: 1rem;
 }
 
 body {
   color: #512200;
   padding: 1rem;
+  font-family: Georgia, serif;
 }
+
 a {
   list-style-type: none;
 }
 
 dl {
   column-count: 2;
+  font-size: .875rem;
 }
 
 .btn {
@@ -42,6 +50,10 @@ dl {
 
 p {
   color: #512200;
+}
+
+footer {
+  text-decoration: none;
 }
 
 div {
