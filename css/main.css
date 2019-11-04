@@ -18,6 +18,8 @@ header {
 body {
   background-color: #dcd4cd;
   padding: 1rem .4em .75em .5em;
+  border-width: 3px;
+  border-color: #9a816d;
 }
 
 h1{
@@ -36,8 +38,19 @@ a {
 }
 
 dl {
-  column-count: 2;
   font-size: .875rem;
+}
+
+dt {
+  width: 49%;
+  margin: 0;
+  display: inline-block;
+}
+
+dd {
+  width: 49%;
+  margin: 0;
+  display: inline-block;
 }
 
 .btn {
@@ -70,4 +83,8 @@ div {
 
 .link-card h2 {
 
+}
+
+.linebreak {
+  border: solid 1px #9a816d;
 }
