@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #f0eee8;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,6 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
   background-color: #dcd4cd;
   color: #512200;
   padding: 0;
@@ -21,7 +21,7 @@ a {
 }
 
 dl {
-  font-size: 1rem;
+  font-size: .875rem;
   text-align: left;
   color: #512200;
   padding: .4rem;
@@ -32,7 +32,6 @@ dt {
   width: 49%;
   margin: 0;
   padding: 0;
-  font-family: Gerogia, serif;
   display: inline-block;
 }
 
@@ -41,7 +40,6 @@ dd {
   margin: 0;
   padding: 0;
   display: inline-block;
-  font-family: Gerogia, serif;
   font-style: italic;
 }
 
@@ -60,8 +58,12 @@ p {
   color: #512200;
   text-align: left;
   margin: .5em;
-  font-family: Gerogia, serif;
   padding: .4rem;
+  font-size: 1rem;
+}
+
+.btn-box {
+  text-align: center;
 }
 
 footer {
@@ -81,10 +83,12 @@ div {
   border-radius: 8px;
   display: block;
   margin: auto;
+  padding-bottom: .5em;
+  padding-top: .5em;
 }
 
 .link-card:hover {
-  background-color: #dcd4cd;
+  background-color: #785439;
 }
 
 .link-card h2 {
