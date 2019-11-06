@@ -12,7 +12,6 @@ html {
 body {
   background-color: #dcd4cd;
   color: #512200;
-  padding: 0;
 }
 
 a {
@@ -24,8 +23,6 @@ dl {
   font-size: .875rem;
   text-align: left;
   color: #512200;
-  padding: .4rem;
-  margin: .5em;
 }
 
 dt {
@@ -57,12 +54,10 @@ dd {
 p {
   color: #512200;
   text-align: left;
-  margin: .5em;
-  padding: .4rem;
-  font-size: 1rem;
 }
 
 .btn-box {
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -83,8 +78,7 @@ div {
   border-radius: 8px;
   display: block;
   margin: auto;
-  padding-bottom: .5em;
-  padding-top: .5em;
+  padding: 1rem;
 }
 
 .link-card:hover {
@@ -95,13 +89,11 @@ div {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   text-align: left;
-  margin: .5em;
   font-size: 1.5rem;
   color: #512200;
-  border-width: 2px;
+  margin: 0;
 }
 
 .linebreak {
   border: solid 1px #9a816d;
-  margin: .7rem;
 }
