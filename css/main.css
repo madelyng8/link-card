@@ -8,52 +8,60 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
-  font-size: 1.5rem;
-  color: #512200;
-  font-family: Dosis, sans-serif;
-  background-color: #dcd4cd;
-  text-align: left;
-}
-
 body {
-  color: #512200;
   font-family: Georgia, serif;
+  background-color: #dcd4cd;
+  color: #512200;
+  padding: 0;
 }
 
 a {
   list-style-type: none;
+  text-decoration: none;
 }
 
 dl {
-  font-size: .875rem;
+  font-size: 1rem;
+  text-align: left;
+  color: #512200;
+  padding: .4rem;
+  margin: .5em;
 }
 
 dt {
   width: 49%;
   margin: 0;
+  padding: 0;
+  font-family: Gerogia, serif;
   display: inline-block;
 }
 
 dd {
   width: 49%;
   margin: 0;
+  padding: 0;
   display: inline-block;
+  font-family: Gerogia, serif;
+  font-style: italic;
 }
 
 .btn {
-  color: #785439;
+  color: #f0eee8;
   text-decoration: none;
-  border: solid 2px #785439;
   text-align: center;
   display: inline-block;
+  border-radius: 6px;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  font-family: Dosis, sans-serif;
 }
 
 p {
   color: #512200;
   text-align: left;
-  padding: .75rem;
-  margin: 0;
+  margin: .5em;
+  font-family: Gerogia, serif;
+  padding: .4rem;
 }
 
 footer {
@@ -67,20 +75,29 @@ div {
 
 .link-card {
   border-width: 3px;
-  border-color: #9a816d;
-  border: solid 2px #000;
+  border-color: #785439;
+  border: solid 3px #9a816d;
   background-color: #dcd4cd;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
 }
 
 .link-card:hover {
-
+  background-color: #dcd4cd;
 }
 
 .link-card h2 {
-
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: .5em;
+  font-size: 1.5rem;
+  color: #512200;
+  border-width: 2px;
 }
 
 .linebreak {
   border: solid 1px #9a816d;
-  padding: .5rem;
+  margin: .7rem;
 }
